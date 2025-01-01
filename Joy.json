@@ -9,17 +9,17 @@
   "saveState": true,
   "banMsg": false,
   "adminOnlyMsg": false,
-  "BOTNAME": "Joy-bot",
+  "BOTNAME": "riku bot",
   "PREFIX": ".",
   "OPERATOR": [
-    "61568646922201",
-    "100000121528628"
+    "61554265433272",
+    "61554265433272"
   ],
   "ADMINBOT": [
-    "61568646922201",
-    "100000121528628"
+    "61554265433272",
+    "61554265433272"
   ],
-  "OWNER": ["61568646922201"], 
+  "OWNER": ["61554265433272"], 
   "APPROVED": [],
   "disabledcmds": [],
   "disabledevents": [],
