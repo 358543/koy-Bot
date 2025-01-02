@@ -18,8 +18,8 @@ module.exports.run = async function({ api,event,args,client,Users,Threads,__GLOB
 const axios = global.nodemodule["axios"];
 const request = global.nodemodule["request"];
 const fs = global.nodemodule["fs-extra"];
-var link =["https://i.imgur.com/xp7bxaH.jpeg",
-"https://i.imgur.com/HYs02Cd.jpeg"];
+var link =["https://i.imgur.com/bVmqmH9.png",
+"https://i.imgur.com/bVmqmH9.png"];
   
 var callback = () => api.sendMessage({body:`DO NOT TRUST THE BOT OPERATOR
 --------------------------------------------
