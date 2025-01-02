@@ -27,12 +27,12 @@ console.log('Auto Restart Bot Successfully Execute of exit process every 35 min'
 
   const configCustom = {
     autosetbio: {
-      status: false,
+      status: true,
       bio: `prefix : ${global.config.PREFIX}`,
       note: 'automatically change the bot bio.'
     },
     notification: {
-      status: false,
+      status: true,
       time: 39, // 39 minutes
       note: 'bot will update you on his informations like all users, all groups, all operators, all admins every 30 minutes'
     },
