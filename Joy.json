@@ -5,12 +5,12 @@
   "developermode": false,
   "language": "en",
   "notification": false,
-  "approval": false,
+  "approval": true,
   "saveState": true,
   "banMsg": false,
   "adminOnlyMsg": false,
   "BOTNAME": "riku bot",
-  "PREFIX": ".",
+  "PREFIX": "*",
   "OPERATOR": [
     "61554265433272",
     "61554265433272"
