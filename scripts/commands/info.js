@@ -25,15 +25,7 @@ const time = process.uptime(),
     seconds = Math.floor(time % 60);
 const moment = require("moment-timezone");
 var juswa = moment.tz("Asia/Manila").format("『D/MM/YYYY』 【hh:mm:ss】");
-var link = ["https://i.postimg.cc/2jJqZ5sK/received-1099503094252818.jpg", 
-
-            "https://i.postimg.cc/2jJqZ5sK/received-1099503094252818.jpg", 
-
-            "https://i.postimg.cc/2jJqZ5sK/received-1099503094252818.jpg",
-
-"https://i.postimg.cc/2jJqZ5sK/received-1099503094252818.jpg",
-
-            "https://i.postimg.cc/2jJqZ5sK/received-1099503094252818.jpg"];
+var link = ["https://i.postimg.cc/2jJqZ5sK/received-1099503094252818.jpg"];
 
 var callback = () => api.sendMessage({body:`𝔸𝔻𝕄𝕀ℕ 𝔸ℕ𝔻 𝔹𝕆𝕋 𝕀ℕ𝔽𝕆ℝ𝕄𝔸𝕋𝕀𝕆ℕ 
 ________________________________________
@@ -67,3 +59,4 @@ _____________CONTACT_____________
 𝑇𝐻𝐴𝑁𝐾𝑆 𝐹𝑂𝑅 𝑈𝑆𝐼𝑁𝐺 𝐵𝑂𝑇 ${global.config.BOTNAME} 『🤖🖤』`,attachment: fs.createReadStream(__dirname + "/cache/juswa.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/juswa.jpg")); 
       return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname+"/cache/juswa.jpg")).on("close",() => callback());
    };
+                         
